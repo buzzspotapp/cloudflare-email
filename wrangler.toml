@@ -2,5 +2,8 @@ name = "worker-email"
 main = "src/main.ts"
 compatibility_date = "2023-05-18"
 
-[env.production]
+[env.dev.vars]
+TOKEN = "asdj-kadsfk-jj3493-48jkadk"
 
+[env.production.vars]
+TOKEN = "asdj-kadsfk-jj3493-48jkadk"
